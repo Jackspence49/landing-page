@@ -128,21 +128,68 @@
     background-color: #e5e7EB;
     display: flex;
     flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    width: auto;
+
 }
 
 .Quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding-left: 300px;
-    padding-top: 100px;
-    padding-right: 300px;
+
 }
 
 .who {
     font-weight: bolder;
     font-size: 18px;
     padding-top: 20px;
-    padding-left: 1250px;
+    padding-left: auto ;
     padding-bottom: 75px;
+}
+
+/* Fourth Portion */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin: 100px;
+    height: 150px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.call  {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.click {
+font-size: 18px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border: 3px solid white;
+    color: white;
+    font: 24px;
+    border-radius: 10%;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+
 }
