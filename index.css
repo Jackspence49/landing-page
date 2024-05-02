@@ -119,5 +119,30 @@
     font-size: 18px;
     color: grey;
     width: 250px;
+    padding-bottom: 40px;
 }
 
+/* Third Portion */
+
+.quote {
+    background-color: #e5e7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+.who {
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 1250px;
+    padding-bottom: 75px;
+}
