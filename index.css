@@ -1,3 +1,5 @@
+/* Whole Page */
+
 .page {
     display: flex;
     flex-direction: column;
@@ -5,6 +7,7 @@
 
 }
 
+/* First portion */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -75,6 +78,46 @@
 }
 
 
-.quote {
-    background-color: #e5e7EB;
+/* Second Portion */
+.pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    
 }
+
+.heading2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Image {
+    height: 150px;
+    width: 150px;
+    border: 6px solid #3882f6;
+    border-radius: 10%;
+}
+
+.Sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub {
+    font-size: 18px;
+    color: grey;
+    width: 250px;
+}
+
